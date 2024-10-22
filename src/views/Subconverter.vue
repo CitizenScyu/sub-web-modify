@@ -932,6 +932,7 @@ export default {
     document.title = "大象订阅转换工具";
     this.isPC = this.$getOS().isPc;
   },
+  mounted() {
     this.form.clientType = "clash";
     this.getBackendVersion();
     this.anhei();
